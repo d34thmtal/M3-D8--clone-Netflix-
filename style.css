@@ -157,3 +157,7 @@ footer p{
     z-index: 100
 
 }
+
+.dropdown-item:hover{
+    background-color: #000000;
+}
