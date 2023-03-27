@@ -151,11 +151,16 @@ footer p{
     z-index: 4; 
 }
 
-.slides img:hover{
-    width: 305px;
-    transition-duration: 1s;
-    z-index: 100
 
+
+.slides img {
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0 4px 6px rgba(135, 135, 135, 0.2);
+}
+
+.slides img:hover {
+    transform: translateY(-5px) scale(1.2);
+    box-shadow: 0 4px 10px rgba(135, 135, 135, 0.797);
 }
 
 .dropdown-item:hover{
