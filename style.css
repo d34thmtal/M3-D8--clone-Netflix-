@@ -2,13 +2,17 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
+html{
+    background-color: #000000;
+}
 
 #navbarNavDropdown ul li a{
     color: white;
 }
 
+
 .navbar-toggler-icon {
-    filter: invert(1);
+    filter: invert(2);
 }
 
 main{
@@ -65,6 +69,7 @@ footer a{
     text-decoration: none;
     margin-top: 15px;
 }
+
 
 
 .anim {
