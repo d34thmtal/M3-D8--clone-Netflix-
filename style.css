@@ -117,3 +117,12 @@ footer a{
 #title > div > div > div.col-10.d-flex > div > ul{
     z-index: 4;
 }
+
+footer p{
+    color: rgb(157, 155, 155);
+    font-size: 10px;
+}
+#services-code{
+    color: rgb(157, 155, 155);
+    font-size: 10px;
+}
