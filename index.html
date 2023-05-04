@@ -47,7 +47,7 @@
                       <div class="collapse position-absolute w-75" id="collapseSearch">
                         <div class="card card-body text-black" style="background-color: rgba(255, 255, 255, 0.377);">
                           <input class="w-100" type="text" placeholder="what are you looking for?" name="" id="search-bar">
-                          <button class="btn bg-black px-2 py-0" style="width: 10rem; type="button" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          <button class="btn bg-black px-2 py-0" style="width: 10rem"; type="button" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             <i class="fa-solid fa-magnifying-glass " style="color: #ffffff;" ><span class="m-1">Search</span></i>
                           </button>
                         </div>
@@ -63,7 +63,7 @@
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img style="width: 2em; " src="https://i.pravatar.cc/" alt="">
                             </a>
-                            <ul class="dropdown-menu bg-black px-3">
+                            <ul class="dropdown-menu bg-black">
                                 <li><a class="dropdown-item" href="#trending-now">Account</a></li>
                                 <li><a class="dropdown-item" href="#watch-again">Pay</a></li>
                                 <li><a class="dropdown-item" href="#new-release">Log-out</a></li>
@@ -82,17 +82,17 @@
           <div class="py-3 d-flex">
             <div class="col-10 d-flex">
               <h1 class="mx-3" >TV Shows</h1>
-              <div class="dropdown ">
-                <button class="btn btn-secondary dropdown-toggle generi" style="z-index: 4;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="dropdown " style="z-index: 40;">
+                <button class="btn btn-secondary dropdown-toggle generi" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Genres
                 </button>
-                <ul class="bg-black dropdown-menu dropdown-menu-dark generi" style="z-index: 4;"> 
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Action</a></li>
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Drama</a></li>
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Commedy</a></li>
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Documentary</a></li>
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Fantasy</a></li>
-                  <li><a class="dropdown-item generi" style="z-index: 4;"href="#">Horror</a></li>
+                <ul class="bg-black dropdown-menu dropdown-menu-dark z-3"> 
+                  <li><a class="dropdown-item generi" href="#">Action</a></li>
+                  <li><a class="dropdown-item generi" href="#">Drama</a></li>
+                  <li><a class="dropdown-item generi" href="#">Commedy</a></li>
+                  <li><a class="dropdown-item generi" href="#">Documentary</a></li>
+                  <li><a class="dropdown-item generi" href="#">Fantasy</a></li>
+                  <li><a class="dropdown-item generi" href="#">Horror</a></li>
                   <!-- il menù a tendina dopo l'aggiunta dell'animazione di caricamenteo della pagina viene messo in secondo piano rispetto  allo slider col risultato che viene coperto. ho provato a sistemarlo con lo z-index ma non ho trovato il problema. DA RIVEDERE-->
                 </ul>
               </div>
@@ -106,7 +106,7 @@
       </section>
 
         <!-- Trending Now -->
-      <section class="container-fluid anim" id="trending-now">
+      <section class="container-fluid z-1" id="trending-now">
         <div class="row ">
           <h2 class="pb-3">Trending Now</h2>
           <section class="slider">
